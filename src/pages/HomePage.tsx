@@ -1,10 +1,13 @@
 import './HomePage.css'
 import Header from '../component/Header';
+import InnerContent from '../component/InnerContent';
 const HomePage = () => {
   return (
-    <section id='une'>
+    <div id='une'>
       <Header/>
-    </section>
+      <InnerContent/>
+     
+    </div>
   )
 }
 
